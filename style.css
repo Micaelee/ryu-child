@@ -1,0 +1,168 @@
+/*
+Theme Name: Ryu Child
+Description: My new wp theme
+Author: Micaelee Hanson
+Template: ryu
+*/
+
+@import url("../ryu/style.css");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+.entry-title {
+font: italic 400 40px/1 'Courgette';
+font-family: 'Courgette';
+font-size: 45px;
+font-weight: 400;
+line-height: 1;
+margin: 0;
+max-width: 696px;
+}
+
+body, button, input, select, textarea {
+color: #000;
+font-family:'Raleway', sans-serif;
+font-size: 15px;
+    font-weight:300;
+}
+
+.categories-links {
+font-family:'Raleway', sans-serif;
+font-weight:300;
+    font-size:10px;
+text-transform: uppercase;
+}
+
+
+code, kbd, tt, var {
+font-family:'Raleway', sans-serif;
+    font-size:15px;
+}
+
+::selection {
+background: #DFFFE7 ; 
+color:#6B6D6B;
+}
+
+[class*="navigation"] a:hover .meta-nav {
+background-color: #DFFFE7;
+    color:#6B6D6B;
+}
+
+[class*="navigation"] .meta-nav {
+background-color: #fff;
+color: #6B6D6B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family:'Courgette', cursive;   
+}
+
+h1 {
+font-size: 30px;
+}
+h2 {
+font-size: 28px;
+}
+h3 {
+font-size: 26px;
+}
+h4 {
+font-size: 24px;
+}
+h5 {
+font-size: 22px;
+}
+h6 {
+font-size: 21px;
+}
+
+a, a:visited, a:active {
+color: #69696B;
+}
+
+.page-links a {
+background-color: #DFFFE7;
+border: 2px solid #fff;
+border-radius: 50%;
+color: #6B6D6B;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+background: #DFFFE7;
+color: #fff;
+}
+
+
+.navigation-main .menu {
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+  <!-- -webkit-transform:rotate(-5deg);-->
+}
+
+
+.navigation-main ul ul {
+background-color: #3F3F3F;
+}
+
+.navigation-main ul ul a:hover {
+background-color: #898989;
+color: #000;
+}
+
+.widgets-trigger a:before {
+content: none;
+}
+
+a, a:visited, a:active {
+color: #000;
+}
+
+.triggers a {
+background-color: #000;
+color: #fff;
+display: block;
+width: 100px;
+height: 34px;
+}
+.widgets-trigger {
+width: 0;
+}
+
+
+#triggers-wrapper {
+text-align: right;
+}
+
+.entry-meta {
+font-family:'Raleway', sans-serif;
+font-weight:300;
+font-size:12px;
+}
+
+blockquote p {
+    font-family: "Courgette",cursive;
+    font-size: 30px;
+}
+
+blockquote cite, .quote-caption {
+font-family: "Raleway", sans-serif;
+}
+
+.genericon {
+display: inline-block;
+width: 16px;
+height: 16px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 16px;
+line-height: 1;
+font-family: 'Genericons'; text-decoration: inherit; font-weight: normal;
+font-style: normal;
+vertical-align: top;
+}
+
+.genericon:before, .genericon:after {
+-webkit-font-smoothing: inherit;
+}
+
+.entry-format-badge {
+display: none;
+}
+
